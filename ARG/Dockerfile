@@ -1,3 +1,2 @@
 ARG VERSION
-FROM almalinux:${VERSION}
-# write
+FROM almalinux:${VERSION:-9}
